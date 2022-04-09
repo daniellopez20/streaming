@@ -1,0 +1,68 @@
+
+body{
+    height: max-content;
+    background-image: url(cena.gif);
+    color: white;
+    background-size: 1600px;
+    background-repeat: no-repeat;
+}
+
+
+.navegador {
+    background-color: #030328;
+    width: 99%;
+    margin: 0 auto;
+    z-index: 10000;
+}
+
+ul{
+    list-style-type: none;
+    }
+li{
+    display: inline;
+    }
+li a {
+    text-decoration: none;
+    color: white;
+}
+.hbo{
+    font-size: 30px;
+}
+.ingresa{
+    float: right;
+    padding-left: 10px;
+}
+.suscribe{
+    float: right;
+    background-color: purple;
+    padding: 5px;
+    width: 147px;
+    height: 15px;
+    font-size: 15px;
+}
+
+.texto{
+    text-align: center;
+    padding-top: 500px;
+}
+
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 25px;
+}
+
+.hijo {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: purple;
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+  }
